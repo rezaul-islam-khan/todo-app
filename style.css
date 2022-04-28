@@ -1,0 +1,89 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.container{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+   
+}
+.card{
+    background-color: rgb(39, 40, 39);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+   min-height: 80vh;
+   overflow: scroll;
+}
+
+.card-title{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: orange;
+}
+
+#input-text{
+    border: none;
+    border-radius: 5px; 
+    padding: 10px;
+    width: 80%;
+}
+#save-btn{
+    padding: 10px;
+    color: white;
+    background-color:orange;
+    border-radius: 5px;
+}
+#save-btn:hover{
+    background-color: green;
+}
+ .li-style{
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    margin:10px 0px 5px 0px; 
+    text-decoration: none;
+    list-style-type: none;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.li-style:hover{
+    color:yellow;
+}
+#deleteButton{
+    color: red;
+    padding: 3px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+#deleteButton:hover{
+    color:rgb(38, 206, 38);
+   
+}
+.btn{
+    text-align: right;
+    display: flex;
+    justify-content: right;
+}
+#notification-msg{
+    text-align: center;
+    padding: 10px;
+
+}
+.bg-green{
+    background-color: rgb(49, 210, 106);
+    color:white;
+}
+
+.bg-red{
+    background-color: rgb(230, 75, 75);
+    color:white;
+}
